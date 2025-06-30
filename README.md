@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-# Yaadein - Collaborative Memory Platform with AI-powered Backend
+
+# Yaadein 
 
 Yaadein is a platform for families to preserve, organize, and share precious memories. It includes an AI-driven backend for analyzing and tagging photos, facial recognition, and interactive memory games. The platform also features a mobile app for iOS and Android, built with React, TypeScript, and Capacitor.
 
----
-=======
 Yaadein 
 A collaborative platform for families to preserve, organize, and share precious memories. Built with React, TypeScript, and Capacitor for native mobile app deployment.
 
@@ -30,29 +28,28 @@ Android Studio (for Android development)
 Xcode (for iOS development, macOS only)
 Installation
 Clone and install dependencies:
->>>>>>> dcb4a02339ba082646f49fb08d4c0e133f12d53a
+
 
 git clone <repository-url>
 cd memorymesh
 npm install
 Set up environment variables:
 
-<<<<<<< HEAD
+
 Yaadein is a robust memory management system powered by advanced AI models. The platform allows families to upload photos, videos, and audio recordings, collaborate on organizing and tagging memories, and engage in memory games. The backend handles intelligent photo tagging, facial recognition, and dynamic game sessions, while the frontend (web and mobile) provides a seamless user experience.
 
----
-=======
+
 cp .env.example .env
 # Edit .env with your Supabase credentials
 Start development server:
->>>>>>> dcb4a02339ba082646f49fb08d4c0e133f12d53a
+
 
 npm run dev
 Mobile App Development
 Android Setup
 Add Android platform:
 
-<<<<<<< HEAD
+
 ### Backend (Yaadein AI Backend)
 
 - **Runtime**: Node.js 18+ with Express.js
@@ -79,7 +76,7 @@ Add Android platform:
 - **Build Tool**: Vite
 - **Backend**: Supabase (Auth, Database, Storage)
 
----
+
 
 ## 🚀 Getting Started
 =======
@@ -93,7 +90,7 @@ Open in Android Studio:
 npm run android:open
 Run on device/emulator:
 
-<<<<<<< HEAD
+
 - **Backend**: 
   - Node.js 18+
   - Redis server
@@ -106,7 +103,6 @@ Run on device/emulator:
   - Android Studio (for Android development)
   - Xcode (for iOS development, macOS only)
 
----
 
 ### Backend Installation
 
