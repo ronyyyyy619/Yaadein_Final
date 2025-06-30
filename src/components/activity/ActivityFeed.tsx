@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Heart, MessageCircle, Upload, User, Gamepad2, Eye, 
-  Clock, Filter, Bell, X, Settings, ChevronDown, 
-  Calendar, RefreshCw, Pin, Star, Play, Share, Tag, 
-  FileText, Mic
+import {
+  Heart, MessageCircle, Upload, User, Gamepad2, Eye,
+  Clock, Filter, Bell, Settings, RefreshCw, Star, Play, Share, Tag,
+  FileText, Mic // ✅ Keep these
+  // ❌ Remove: X, ChevronDown, Calendar, Pin
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { TouchOptimized } from '../ui/TouchOptimized';
