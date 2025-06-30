@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react';
+//import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { LandingPage } from './pages/LandingPage';
@@ -10,7 +10,7 @@ import { ErrorBoundary } from './components/ui/ErrorBoundary';
 import { PageTransition } from './components/ui/PageTransition';
 import { useAuth } from './hooks/useAuth';
 import { usePerformanceMonitor } from './hooks/usePerformanceMonitor';
-import { ResponsiveHeader } from './components/layout/ResponsiveHeader';
+//import { ResponsiveHeader } from './components/layout/ResponsiveHeader';
 
 // Auth callback page
 import { AuthCallbackPage } from './pages/AuthCallbackPage';
