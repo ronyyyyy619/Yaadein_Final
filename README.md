@@ -79,13 +79,13 @@ Add Android platform:
 
 
 ## 🚀 Getting Started
-=======
+
 npm run cap:add:android
 Build and sync:
 
 npm run android:build
 Open in Android Studio:
->>>>>>> dcb4a02339ba082646f49fb08d4c0e133f12d53a
+
 
 npm run android:open
 Run on device/emulator:
@@ -110,7 +110,7 @@ Run on device/emulator:
    ```bash
    git clone https://github.com/yourusername/yaadein-ai-backend.git
    cd yaadein-ai-backend
-=======
+
 npm run android:dev
 iOS Setup
 Add iOS platform:
@@ -177,4 +177,4 @@ GDPR compliant data handling
 Secure authentication with Supabase
 Family-only access controls
 Local data caching for offline use
->>>>>>> dcb4a02339ba082646f49fb08d4c0e133f12d53a
+
