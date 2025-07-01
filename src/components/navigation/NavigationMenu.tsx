@@ -7,6 +7,7 @@ import {
 } from 'lucide-react';
 import { NotificationBadge } from './NotificationBadge';
 import { TouchOptimized } from '../ui/TouchOptimized';
+import { LucideIcon } from "lucide-react";
 
 interface NavigationMenuProps {
   isOpen: boolean;
@@ -18,7 +19,7 @@ interface NavItem {
   id: string;
   name: string;
   href: string;
-  icon: React.ComponentType<{ size?: number; className?: string }>;
+  icon: LucideIcon;
   description?: string;
   badge?: number;
   children?: NavItem[];
